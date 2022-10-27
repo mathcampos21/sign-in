@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="container">
+        <h1 class="container__titulo">Sign in.</h1>
+        <div class="container__botao ">
+            <a href="#" class="botao botao__google"> <img class="img__botao" src="img/google.png" alt=""> Continue with Google</a>
+            <a href="#" class="botao botao__facebook"> <img class="img__botao" src="img/facebook.png" alt=""> Continue with Facebook</a>
+        </div>
+
+        <p class="infor">or</p>
+
+        <form class="container__login">
+            <input class="botao login__control" type="email" name="Email" placeholder="Email" required>
+            <input class="botao login__control" type="password" name="Password" placeholder="Password" required>
+            <button type="submit" class="container__botao botao--signin">Sign in</button>
+        </form>
+
+        <div class="container__create">
+            <p class="infor">Dont have an account?<a class="infor__link" href="#">Create Account</a></p>
+            <a href="#" class="infor__link">Forgot Password?</a>
+        </div>
+
+    </main>
+    
+</body>
+</html>
